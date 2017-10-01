@@ -9,7 +9,7 @@ import org.apache.spark.streaming.twitter._
 object TrendingHashTags {
   def main(args: Array[String]): Unit = {
     if (args.length < 8) {
-      System.err.println("check usage.txt")
+      System.err.println("README.md")
       System.exit(1)
     }
 
